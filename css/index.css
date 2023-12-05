@@ -2508,7 +2508,8 @@ h1.page-title + .tag-cloud-list {
 }
 #aside-content .card-widget {
   position: relative;
-  overflow: hidden;
+  overflow: hidden auto;
+  max-height: 800px;
   margin-top: 20px;
   padding: 20px 24px;
 }
